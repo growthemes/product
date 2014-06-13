@@ -1,0 +1,21 @@
+grow_version: 0.0.30
+project: growthemes/product
+
+title@: Product
+description@: One company, three products.
+
+flags:
+  static_dir: /static/
+
+localization:
+  default_locale: en
+  locales:
+  - de
+  - en
+  - ja
+  - zh
+
+preprocessors:
+- kind: sass
+  sass_dir: /source/sass/
+  out_dir: /static/css/
