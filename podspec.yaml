@@ -19,3 +19,8 @@ preprocessors:
 - kind: sass
   sass_dir: /source/sass/
   out_dir: /static/css/
+
+deployments:
+  sandbox:
+    destination: gcs
+    bucket: sandbox.growlaunches.com
